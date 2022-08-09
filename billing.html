@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Modul ERP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/29c1d00985.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="erp.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="container-md">
+      <div class="row justify-content-center text-center bg-success shadow-sm fixed-top" style="height: 3rem">
+        <h4 class="text-bold mt-2">ENTERPRISE RESOURCE PLANNING</h4>
+      </div>
+      <div class="row fixed-top justify-content-center bg-white shadow-sm mt-5 mb-2">
+        <div class="col-md-2 mt-3 mb-3 text-center">
+          <a class="text-success" href="erp-home.html"><i class="fa-solid fa-house fa-2xl"></i></a>
+        </div>
+        <div class="col-md-8 mt-3 mb-3 text-center">
+          <h5 class="text-bold text-muted">MODUL SALES & DISTRIBUTION</h5>
+        </div>
+        <div class="col-md-2 mt-3 mb-3 text-center">
+          <div class="dropdown">
+            <a class="text-success" type="button" id="modulerp" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-bars fa-2xl"></i>
+            </a>
+            <ul class="dropdown-menu mt-4 text-bold text-" aria-labelledby="modulerp">
+              <li><a class="dropdown-item" href="modulfinance.html">FINANCE</a></li>
+              <li><a class="dropdown-item" href="modulsales.html">SALES & DISTRIBUTION</a></li>
+              <li><a class="dropdown-item" href="modulproduction.html">PRODUCTION</a></li>
+              <li><a class="dropdown-item" href="modulhuman.html">HUMAN RESOURCES</a></li>
+              <li><a class="dropdown-item" href="modulmaintenance.html">MAINTENANCE</a></li>
+              <li><a class="dropdown-item" href="modulquality.html">QUALITY MANAGEMENT</a></li>
+              <li><a class="dropdown-item" href="modulmaterial.html">MATERIAL MANAGEMENT</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- finance -->
+    <div class="border container mt-5 no-gutters">
+      <div class="row w-full mt-5 pt-5">
+        <div class="border col-md-3 mt-4 shadow-sm ms-2 me-3">
+          <div class="container mt-2">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link shadow-sm rounded-2 text-muted mt-2 mb-2" href="modulsales.html"><h6 class="mt-2">Inquiry</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link shadow-sm rounded-2 text-muted mt-2 mb-2" href="quotation.html"> <h6 class="mt-2">Quotation</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link shadow-sm rounded-2 text-muted mt-2 mb-2" href="contracts.html"> <h6 class="mt-2">Contracts</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link shadow-sm rounded-2 text-muted mt-2 mb-2" href="order.html"> <h6 class="mt-2">Order</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link shadow-sm rounded-2 text-muted mt-2 mb-2" href="shipping.html"> <h6 class="mt-2">Shipping</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link shadow-sm rounded-2 text-muted mt-2 mb-2" href="delivery.html"> <h6 class="mt-2">Delivery</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active bg-success rounded-2 text-bold text-white mt-2 mb-2 hover:bg-white" aria-current="page" href="billing.html"> <h6 class="mt-2">Billing</h6></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link shadow-sm rounded-2 text-muted mt-2 mb-2" href="invoice.html"> <h6 class="mt-2">Invoice</h6></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="border col-md-8 mt-4 shadow-sm ms-2 me-3"></div>
+      </div>
+    </div>
+    <!-- finance end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

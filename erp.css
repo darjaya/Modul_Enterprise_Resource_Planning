@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Poppins:wght@500&display=swap");
+ {
+  font-family: "Poppins" sans-serif;
+}
+@import "sweet-alert-animations";
+
+body {
+  font-family: "Poppins" sans-serif;
+}
+.nav-link:hover {
+  background-color: rgb(149, 150, 158);
+  border-radius: 3;
+}
+.details:hover {
+  background-color: white;
+  border-radius: 4;
+}
